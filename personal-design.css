@@ -1,0 +1,95 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
+}
+
+.nav-section{
+    display: flex;
+    gap: 550px;
+    margin-top: 30px;
+}
+
+.logo{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parant img{
+    width: 50px;
+    margin-top: 38px;
+}
+
+.button{
+    display: flex;
+    gap: 18px;
+}
+
+#contac{
+    background-color: #a53dff;
+    width: 80px;
+    height: 40px;
+    margin-top: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-part{
+    margin-left: 190px;
+}
+
+.title{
+    width: 490px;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title button{
+    background-color: #a53dff;
+    width: 80px;
+    height: 40px;
+    margin-top: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.item{
+    display: flex;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+.item h4{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.item p{
+    margin-top: 5px;
+}
+
+.card{
+    background-color: #f6ebfc;
+    color: #434f61;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
