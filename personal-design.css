@@ -5,7 +5,7 @@ body{
 
 .nav-section{
     display: flex;
-    gap: 550px;
+    gap: 570px;
     margin-top: 30px;
 }
 
@@ -46,6 +46,8 @@ body{
 }
 
 .hero-part{
+    display: flex;
+    justify-content: space-between;
     margin-left: 190px;
 }
 
@@ -56,9 +58,10 @@ body{
     margin-bottom: 100px;
 }
 
+
 .title button{
     background-color: #a53dff;
-    width: 80px;
+    /* width: 80px; */
     height: 40px;
     margin-top: 7px;
     color: white;
@@ -72,7 +75,7 @@ body{
 .item{
     display: flex;
     gap: 10px;
-    margin-top: 200px;
+    margin-top: 110px;
 }
 
 .item h4{
@@ -91,5 +94,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.total-flex{
+    display: flex;
+    
+}
+
+.man{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    
 }
