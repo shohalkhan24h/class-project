@@ -433,7 +433,170 @@ body{
 }
 
 .div-1 p{
-    width: 79%;
-    margin-bottom: 90px;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 
+/* <!-------- discuss & form ---------> */
+
+.discuss{
+    margin-top: 150px;
+}
+
+.top-part{
+    margin-bottom: 50px;
+}
+
+.top-part h3{
+    font-size: 38px;
+    margin: 0 0 5px 0;
+    padding-top: 8px;
+}
+
+.top-part p{
+    line-height: 23px;
+}
+
+.container-div{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 20px auto;
+}
+
+.icon-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 22px;
+    padding-left: 20px;
+}
+
+.left-side{
+    width: 40%;
+}
+
+.icon-content .icon-text{
+    text-align: left; 
+}
+
+.icon-text p{
+    font-size: 14px;
+    margin: 5px 0 0 0;
+
+}
+
+.icon-text h6{
+    font-size: 14px;
+    color: #697484;
+    margin: 0;
+}
+
+.address{
+    background-color: #a238ff;
+}
+
+.top-icon{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 4px 6px 20px 0 rgb(216, 216, 216);
+    width: 300px;
+    height: 85px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+
+.facebook{
+   height: 120px;
+}
+
+/* <!-------- form ---------> */
+
+.form{
+    width: 40%;
+}
+
+.form p{
+    margin-bottom: 45px;
+    line-height: 23px;
+    color: #697484;
+}
+
+.input input{
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding-bottom: 15px;
+
+}
+
+#name-color::placeholder{
+    color: #a238ff;
+}
+
+#name-color{
+border-bottom: 1px solid  #a238ff;
+    margin-bottom: 30px;
+}
+
+.different{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    text-decoration: none;
+    color: white;
+    background-color: #a238ff;
+    padding: 14px 24px;
+    border-radius: 5px;
+}
+
+.form a img{
+    width: 20px;
+    padding-left: 8px;
+}
+
+/* <!-------------- footer --------------> */
+
+.footer{
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 180px;
+    color: white;
+    padding: 40px 50px 5px 50px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 40px;
+}
+
+.menu-item, .copy{
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+}
